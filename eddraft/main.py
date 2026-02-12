@@ -1,4 +1,4 @@
-import yaml
+import os
 import importlib
 from edapi import EdAPI
 from pathlib import Path
@@ -15,7 +15,7 @@ user = user_info["user"]
 # cs61c test = 61031
 # cs61c sp26 = 93340
 course_config = {
-    "course_id": 61031,
+    "course_id": int(os.getenv("COURSE_ID", 61031)),
     "post_privately": True
 }
 
