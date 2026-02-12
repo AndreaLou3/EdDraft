@@ -3,8 +3,8 @@
 Project_2:
   name: "Project 2"
   project_num: "2"
-  part_a_due: "2026-02-20 23:59"
-  part_b_due: "2026-02-28 23:59"
+  part_a_due: "February 26th, 11:59 PST"
+  part_b_due: "March 5th, 11:59 PST"
   ab_cutoff: 6
   spec_url: "https://cs61c.org/sp26/projects/proj2/"
   num_subthreads: 9
