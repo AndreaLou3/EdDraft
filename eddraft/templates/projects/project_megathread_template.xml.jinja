@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document version="2.0">
+  <paragraph>
+    Project {{ project_num }} is released! Part A is due <bold>{{ part_a_due }}</bold>,
+    and Part B is due <bold>{{ part_b_due }}</bold>. You may work alone or with a partner.
+  </paragraph>
+  <paragraph>
+    Spec: <link href="{{ spec_url }}">spec</link>
+  </paragraph>
+  <paragraph>
+    Partnering Post: {{ partner_thread_num }}
+  </paragraph>
+  <paragraph>
+    Tasks:
+  </paragraph>
+  <paragraph>
+    {{ project_subthreads | safe }}
+  </paragraph>
+</document>
